@@ -4,7 +4,7 @@ header{
     color: white;
 }
 .color-overlay{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     min-height: 60vh;
 }
 
@@ -24,6 +24,18 @@ footer a:hover{
 #me img[src^="images/Bong.jpg"]{
     border-radius: 50%;
 }
+
+/* <!-- ---- Specials ---- --> */
+.special-img span{
+    top: 20px;
+    right: 20px;
+  }
+  .special-img:hover img{
+    transform: scale(1.2);
+  }
+  .special-img img{
+    transition: all 0.3s ease;
+  }
 
 @media( max-width: 767.98px){
     .color-overlay{
